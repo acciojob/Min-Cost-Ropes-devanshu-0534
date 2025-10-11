@@ -2,6 +2,7 @@ function mincost(arr)
 { 
 //write your code here
 // return the min cost
+	let result = 0;
 	while(arr.length>1){
 		arr.sort((a,b) => a - b);
 		const small1 = arr[0];
